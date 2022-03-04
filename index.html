@@ -1,1 +1,24 @@
 <h1> Asmahashibira</h1>
+<h1>Anime favorit</h1>
+<h2>Nama anime</h2>
+
+<p>Masukkan Anime favoritmu</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+ let person = prompt("masukkan salah satu hobi favoritmu", "");
+  if (person != null) {
+    var x = document.createElement("SPAN");
+  	var t = document.createTextNode(person+" ");
+  	x.appendChild(t);
+  	document.body.appendChild(x);
+  }
+}
+</script>
+
+</body>
+</html>
