@@ -1,0 +1,27 @@
+<p ld=2demo"> </p>{
+case 0:
+hari="senin";
+break;
+case 1:
+hari-"selasa";
+break;
+case 2:
+hari="rabu";
+break;
+case 3:
+hari="kamis";
+break;
+case 4:
+hari="jum'at;
+break;
+case 5:
+hari="sabtu";
+break;
+case 6:
+hari="minggu";
+break;
+}
+Document.getElementedByld ("demo").innerHTML="sekarang hari"+ hari;
+</script>
+<p> programed by Asma' </p>
+</html>
